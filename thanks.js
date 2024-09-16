@@ -1,0 +1,1 @@
+!function(){if(JSON.parse(sessionStorage.getItem("formData"))){let e=document.querySelectorAll(".display"),t=JSON.parse(sessionStorage.getItem("formData"));t.forEach((t,a)=>{e[a].innerText=t})}else location.replace("/")}();
